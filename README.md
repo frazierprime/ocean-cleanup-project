@@ -12,14 +12,18 @@ https://github.com/kili-technology/automl
 # Quickstart
 ## Dependencies
 python version = ^3.9
+
 Create a kili community account [here](https://cloud.kili-technology.com/label/).
+
 Create a kili client api key [here](https://docs.kili-technology.com/docs/creating-an-api-key).
-set api key in your env:
+
+Set api key in your env:
 ```bash
 export KILI_API_KEY='<you_api_key_here>'
 ```
 
 Assumes usage of conda for managing the env.
+
 Create an env and install dependencies:
 ```bash
 conda create -n ocean-cleaup python=3.9.11
