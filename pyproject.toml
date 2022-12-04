@@ -10,7 +10,6 @@ packages = [{include = "ocean_cleanup_project"}]
 python = "^3.9"
 kili = "^2.125.2"
 jupyter = "^1.0.0"
-automl = "^2.9.9"
 
 
 [build-system]
