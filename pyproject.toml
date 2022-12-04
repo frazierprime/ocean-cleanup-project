@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ocean-cleanup-project"
+version = "0.1.0"
+description = ""
+authors = ["frazierprime <josh.frazier@sage.com>"]
+readme = "README.md"
+packages = [{include = "ocean_cleanup_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kili = "^2.125.2"
+jupyter = "^1.0.0"
+automl = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
